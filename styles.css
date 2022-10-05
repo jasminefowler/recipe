@@ -1,0 +1,107 @@
+html {
+    background-color: rgba(122, 191, 191, .5);
+}
+body {
+    margin: 0px auto;
+    background-color: #f2f2f2;
+    color: #0d0d00;
+    width: 375px;
+}
+h1 {
+    font-family: 'Staatliches', cursive;
+    color: #0d0d00;
+}
+h2 {
+    font-family: 'Staatliches', cursive;
+    color: #0d0d00;
+    text-align: center;
+}
+h3 {
+    font-family: 'Staatliches', cursive;
+    color: #0d0d00;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #0d0d00;
+}
+dl {
+    font-family: 'Roboto', sans-serif;
+    color: #0d0d00;
+}
+dt{
+}
+dd {
+    text-align:center;
+
+}
+ul {
+    text-decoration: none;
+    list-style: square;
+    font-family: 'Roboto', sans-serif;
+    color: #0d0d00;
+}
+ul li {
+    padding-block: 5px;
+    padding-left: 10px;
+}
+ol{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #0d0d00;
+    word-spacing: .5em;
+}
+menu {
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color: #0d0d00;
+    list-style: none;
+    ;
+    color: #eb5428;
+
+}
+aside {
+    background-color: #7abfbf;
+
+}
+aside, image {
+    padding-left: 20px;
+}
+aside p {
+    float: right;
+}
+footer p {
+    font-family: 'Staatliches', cursive;
+    color: #0d0d00;
+}
+.socialmedia {
+    display: absolute;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color: #eb5428;
+    float: right;
+}
+
+@media screen and (min-width:834px) {
+    body {
+        width: 834px;
+    }
+    nav {
+        width: 834px;
+    }
+    ul {
+        width: 834px;
+
+    }
+}
+@media screen and (min-width:1080px) {
+    body {
+        width: 1080px;
+    }
+    nav {
+        width: 1080px;
+    }
+    .details {
+        background-color: #0d0d00;
+        color: #7abfbf;
+    }
+}
